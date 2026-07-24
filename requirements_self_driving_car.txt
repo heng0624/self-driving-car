@@ -1,0 +1,4 @@
+cd self_driving_rl
+python -m pip install pygame torch numpy imageio imageio-ffmpeg
+python train.py 500        # trains DQN, saves dqn_car.pt
+python demo.py 
